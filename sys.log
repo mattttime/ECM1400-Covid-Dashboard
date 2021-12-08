@@ -1,0 +1,24 @@
+2021-12-07 17:16:27,220 - INFO - Running System
+2021-12-07 17:16:27,241 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-07 17:17:00,840 - INFO - Running System
+2021-12-07 17:17:00,850 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-12-07 17:17:04,967 - INFO - Loading newest data
+2021-12-07 17:17:04,967 - INFO - no sections of update not needed
+2021-12-07 17:17:05,029 - INFO - No updates needed at this time, raising error
+2021-12-07 17:17:05,033 - INFO - Function covid_API_request initiated with variables location=Exeter, location type=ltla
+2021-12-07 17:17:05,037 - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2021-12-07 17:17:05,152 - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22daily_cases%22%3A%22newCasesByPublishDate%22%2C%22total_cases%22%3A%22cumCasesByPublishDate%22%2C%22hospital_cases%22%3A%22hospitalCases%22%2C%22total_deaths%22%3A%22cumDeaths28DaysByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2021-12-07 17:17:05,169 - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2021-12-07 17:17:05,321 - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaName%3DExeter%3BareaType%3Dltla&structure=%7B%22date%22%3A%22date%22%2C%22daily_cases%22%3A%22newCasesByPublishDate%22%2C%22total_cases%22%3A%22cumCasesByPublishDate%22%2C%22hospital_cases%22%3A%22hospitalCases%22%2C%22total_deaths%22%3A%22cumDeaths28DaysByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2021-12-07 17:17:05,334 - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2021-12-07 17:17:05,475 - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22daily_cases%22%3A%22newCasesByPublishDate%22%2C%22total_cases%22%3A%22cumCasesByPublishDate%22%2C%22hospital_cases%22%3A%22hospitalCases%22%2C%22total_deaths%22%3A%22cumDeaths28DaysByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+2021-12-07 17:17:05,491 - DEBUG - Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+2021-12-07 17:17:05,629 - DEBUG - https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22daily_cases%22%3A%22newCasesByPublishDate%22%2C%22total_cases%22%3A%22cumCasesByPublishDate%22%2C%22hospital_cases%22%3A%22hospitalCases%22%2C%22total_deaths%22%3A%22cumDeaths28DaysByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+2021-12-07 17:17:05,641 - INFO - covid API request successful
+2021-12-07 17:17:05,641 - INFO - Function news_API_request initiated with arguments terms=covid COVID-19 coronavirus api key=e81eb1514d5c4ff992da0986724239e8
+2021-12-07 17:17:05,641 - DEBUG - Starting new HTTPS connection (1): newsapi.org:443
+2021-12-07 17:17:05,875 - DEBUG - https://newsapi.org:443 "GET /v2/top-headlines?country=gb&q=covid&q=COVID-19&q=coronavirus&apiKey=e81eb1514d5c4ff992da0986724239e8 HTTP/1.1" 200 None
+2021-12-07 17:17:05,950 - INFO - News API request successful
+2021-12-07 17:17:05,950 - ERROR - Parameter Data Error, running default function values and refreshing data
+2021-12-07 17:17:06,108 - INFO - 127.0.0.1 - - [07/Dec/2021 17:17:06] "GET /index HTTP/1.1" 200 -
+2021-12-07 17:17:06,277 - INFO - 127.0.0.1 - - [07/Dec/2021 17:17:06] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
